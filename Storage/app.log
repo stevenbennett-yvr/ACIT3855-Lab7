@@ -1,0 +1,44 @@
+STORAGE :: DEBUG Stored buy event with trace id de6a58ed-4e87-4f8d-b755-58546cf5a088
+STORAGE :: DEBUG – Stored buy event with trace id 
+STORAGE :: DEBUG – Stored buy event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – Stored sell event with trace id 
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:22:20Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 29.99, 'sell_qty': 4, 'Trace_id': '', 'trace_id': '0ad2cf22-5b9c-42cd-9624-055e1003f02a'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:22:27Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 29.99, 'sell_qty': 4, 'Trace_id': '', 'trace_id': 'b97f31df-43b6-464e-ac28-093c1dce4f00'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:22:43Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'Trace_id': '', 'trace_id': 'e8076d1f-27e7-4b21-825b-68079f72e272'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:23:36Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'Trace_id': '', 'trace_id': 'e177b6a8-e622-437c-8604-21895f04ae23'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:24:32Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'Trace_id': '', 'trace_id': '5c265a05-aa4b-43f5-8b4c-0cce090d4c6f'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:24:42Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'Trace_id': '', 'trace_id': 'f345b2ee-c540-487b-be25-4f837da4e85d'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:30:16Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': '735f1a60-d704-4dcb-96ff-a037b96a3a5f'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:40:03Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': '4f496dba-33b3-456f-af62-8e3a9dfdab08'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:40:27Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': 'f03d3fd1-01a8-43a9-b54a-6a53156aab56'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:42:35Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': '64c1a0d7-a573-4328-a1b3-f0306b0d1739'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:44:50Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': '5c2f1adb-91d5-45d9-93b2-993bc69a2ff1'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:49:46Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': 'b4f83c5e-a8cc-49ba-a44d-124e2c3c90bd'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:50:49Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': '252778cc-5792-455b-81ab-734b9a1b580c'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:57:01Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': '65380b34-37b5-46ce-8cd8-2c11bd90d23a'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:57:22Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': '6e05a78f-63d4-4a8e-b3e9-3cfd995af572'}}
+STORAGE :: DEBUG – CONSUMER::storing sell event
+STORAGE :: DEBUG – {'type': 'sell', 'datetime': '2023-02-23T18:58:31Z', 'payload': {'sell_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'item_name': 'Item 3', 'item_price': 30.0, 'sell_qty': 4, 'trace_id': 'fc9c0410-e610-4a78-9f9d-b96cd3442f78'}}

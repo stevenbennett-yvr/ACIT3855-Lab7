@@ -55,7 +55,7 @@ def populate_stats():
     timestamp = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # TODO create a last_updated variable that is initially assigned the timestamp, i.e. last_updated = timestamp
-    res=requests.get(f'http://localhost:8090/buy?timestamp={timestamp}')    
+    res=requests.get(f'http://52.38.236.128/storage/buy?timestamp={timestamp}')    
 
     # TODO log beginning of processing
     logger = logging.getLogger('Beginning of Processing')
@@ -73,7 +73,7 @@ def populate_stats():
         last_updated = stat['last_updated']
 
     # TODO call the /buy GET endpoint of storage, passing last_updated
-    events = requests.get(f'http://localhost:8090/buy?timestamp={last_updated}')
+    events = requests.get(f'http://52.38.236.128/storage/buy?timestamp={last_updated}')
 
     # TODO convert result to a json object, loop through and calculate max_buy_price of all recent records
     events = events.json()
@@ -86,7 +86,7 @@ def populate_stats():
             max_buy_price = max(buy_prices)
 
     # TODO call the /sell GET endpoint of storage, passing last_updated
-    events = requests.get(f'http://localhost:8090/sell?timestamp={last_updated}')
+    events = requests.get(f'http://52.38.236.128/storage/sell?timestamp={last_updated}')
     # TODO convert result to a json object, loop through and calculate max_sell_price of all recent records
     events = events.json()
     num_sells = len(events)
@@ -126,4 +126,5 @@ logger = logging.getLogger('basic')
 
 if __name__ == "__main__":
     init_scheduler()
+    app.add_api("openapi.yml", base_path="/processing", strict_validation=True, validate_responses=True)
     app.run(port=8100, use_reloader=False)

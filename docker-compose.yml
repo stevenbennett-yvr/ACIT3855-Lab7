@@ -29,24 +29,26 @@ services:
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - data:/var/lib/mysql
-      - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql
+
+  receiver:
+    container_name: receiver
+    image: receiver:latest
+    ports:
+      - "8080:8080"
+    depends_on:
+      - kafka
 
   storage:
+    container_name: storage
     image: storage:latest
     ports:
       - "8090:8090"
     depends_on:
       - receiver
 
-  receiver:
-    image: reciever:latest
-    ports:
-      - "8080:8080"
-    depends_on:
-      - kafka
-
-  processing:
-    image: processing:latest
+  processor:
+    container_name: processor
+    image: processor:latest
     ports:
       - "8100:8100"
     depends_on:

@@ -178,4 +178,5 @@ if __name__ == "__main__":
     tl = Thread(target=process_messages)
     tl.daemon = True
     tl.start()
+    app.add_api("openapi.yml", base_path="/storage", strict_validation=True, validate_responses=True)
     app.run(port=8090)

@@ -2,3 +2,5 @@ connexion
 swagger-ui-bundle
 SQLAlchemy
 apscheduler
+Flask
+flask-cors

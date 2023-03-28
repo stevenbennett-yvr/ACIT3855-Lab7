@@ -75,4 +75,5 @@ with open('log_conf.yml', 'r') as f:
 logger = logging.getLogger('basic')
 
 if __name__ == "__main__":
+    app.add_api("openapi.yml", base_path="/receiver", strict_validation=True, validate_responses=True)
     app.run(port=8080)
